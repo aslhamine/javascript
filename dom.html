@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+<style>
+    div{
+        display: inline-flex;
+        background: #415a80;
+        color: #f2f4f8;
+        padding: 2vh;
+        font-size: 5vw;
+        font-weight: bolder;
+
+    }
+
+</style>
+
+    
+</head>
+
+
+
+<body>
+   <!-- <h1 id = "h1" onclick = "this.style.color = 'red' ">Clique em mim!</h1>  -->
+
+   <h1 onclick="cor()">Clique em mim!</h1>
+   <input onchange="changeH1(this)">
+   <br><br>
+   <div onclick="hideH1()">Hide H1</div> 
+   <br><br>
+   
+   <h2>Clique em mim!</h2>
+    <input oninput="changeH2(this)">
+   <!-- <input id="texto" type="text" onchange="changeH1()"> -->
+   <br><br>
+
+   <div onmouseover = "onOver(this)" onmouseout="onOut(this)" onclick="hideH1()">Onmouseover</div>  
+   <br><br>
+   <br><br>
+   <br><br>
+   
+
+   <script src="dom.js"></script>
+</body>
+</html>
